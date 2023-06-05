@@ -1,0 +1,224 @@
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+header{
+    background-color: white;
+    text-align: center;
+    color: white;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    /*fuente Nunito, Sans-serif*/
+    background-color: #5FA4AF;
+    /*Color de la fuente negra*/
+}
+
+form {
+    max-width: 300px;
+    /*Ancho máximo de 300 píxeles*/
+    margin: 10px auto;
+    /*Margen de 10 píxeles automático*/
+    padding: 10px 20px;
+    /*Con relleno de 10px 20px*/
+    background: #6DD06F;
+    /*Fondo blanco*/
+    border-radius: 8px;
+    /*Borde con pestaña*/
+}
+
+h1 {
+    margin: 0 0 30px 0;
+    /*margen izquierdo de 30px*/
+    text-align: center;
+    /*Alineado al centro*/
+}
+
+/*Tipos de interruptores*/
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea,
+select {
+    background: rgba(255, 255, 255, 0.1);
+    /*Color de fondo negro*/
+    border: none;
+    /*Sin borde*/
+    font-size: 16px;
+    /*Tamaño de fuente de 16 px*/
+    height: auto;
+    /*Con un tamaño automático*/
+    margin: 0;
+    /*Sin margen*/
+    outline: 0;
+    /*Sin línea*/
+    padding: 15px;
+    /*Relleno de 15 pixeles*/
+    width: 100%;
+    /*tamaño de 100%*/
+    background-color: #e8eeef;
+    /*Color de fonde blanco*/
+    color: #8a97a0;
+    /*color de la fuente gris*/
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+    /*Una sombra en la parte de abajo*/
+    margin-bottom: 30px;
+    /*Margen en el fondo de 30 px*/
+}
+
+
+
+select {
+    padding: 6px;
+    /*relleno*/
+    height: 32px;
+    /*Alto*/
+    border-radius: 2px;
+    /*Radio del borde*/
+}
+
+button {
+    /**/
+    padding: 19px 39px 18px 39px;
+    /*Relleno*/
+    color: #FFF;
+    /*Color de la fuente blanco*/
+    background-color: #4bc970;
+    /*Color de fondo verde*/
+    font-size: 18px;
+    /*Tamaño de la fuente de 18px*/
+    text-align: center;
+    /*Alineado de texto en el centro*/
+    font-style: normal;
+    /*Tipo de fuente normal*/
+    border-radius: 5px;
+    /*Radio borde de 5 px*/
+    width: 100%;
+    /*Ancho de 100%*/
+    border: 1px solid #3ac162;
+    /*Borde 1px color verde*/
+    border-width: 1px 1px 3px;
+    /*borde de ancho*/
+    box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
+    /*con sombra*/
+    margin-bottom: 10px;
+    /**/
+}
+
+fieldset {
+    margin-bottom: 30px;
+    /*Margen de fondo 30px*/
+    border: none;
+    /*Sin borde*/
+}
+
+legend {
+    font-size: 1.4em;
+    /*Tamaño de fuente de 1.4 em*/
+    margin-bottom: 10px;
+    /*Margen fondo de 10px*/
+}
+
+label {
+    display: block;
+    /*Etiqueta bloqueada*/
+    margin-bottom: 8px;
+    /*Margen de fonde de 8px*/
+}
+
+label.light {
+    font-weight: 300;
+    /*Altura de  la fuente de 300*/
+    display: inline;
+    /*Display en linea*/
+}
+
+ul#l01 {
+    /*ul con id 101*/
+    list-style: none;
+    /*Sin estilo*/
+    margin: 0;
+    /*sin margen*/
+    padding: 0;
+    /*Sin relleno*/
+    overflow: hidden;
+    /*Sin desbordamiento*/
+    background-color: #649797;
+    /*Color de fondo negro*/
+    position: fixed;
+    /*Posición fija*/
+    top: 0;
+    /*Fijar en la parte superior*/
+    width: 100%;
+    /*Ancho completo*/
+}
+
+li#l01 {
+    background-attachment: fixed;
+    /*li con id 101*/
+    float: left;
+    /*Flote a la izquierda*/
+    height: 30px;
+}
+
+li a {
+    background-attachment: fixed;
+    display: block;
+    /*bloqueado*/
+    color: white;
+    /*color de fuente blanco*/
+    text-align: center;
+    /*alineado al centro*/
+    padding: 12px;
+    /*con relleno de 12px*/
+    text-decoration: none;
+    /*Sin decoración de texto*/
+}
+
+li a:hover {
+    /*Cuando el cursor está dentro*/
+    background-attachment: fixed;
+    background-color: #111;
+    /*color negro*/
+}
+
+@media screen and (min-width: 480px) {
+    form {
+        max-width: 480px;
+        /*Tamaño máximo del formulario*/
+    }
+}
+
+.iframe-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+iframe {
+    border: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    width: 60%;
+    width: 40%;
+}
+img#h{
+width: 50%;
+
+}
+img#j{
+    width: 70%;
+    
+    }

@@ -1,0 +1,66 @@
+	body{
+		color: white;
+	}
+	h2 span{
+		border: 4px dashed tomato;
+		padding: 10px;
+	}
+	header{
+		background-color: white;
+		text-align: center;
+		color: white;
+	}
+	div{
+		text-align: center;
+	}
+	input{
+		margin-bottom: 10px;
+		font-size: 11pt;
+		padding: 15px 10px 10px;
+		border: 1px solid #cecece;
+		border-radius: 40px;
+		width: 50%;
+	}
+	table{
+		border: none;
+	}	
+	nav ul{
+		padding: 0;
+	}
+	ul{	
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color: #333333;	
+	}
+	li{
+		float: left;
+	}
+	#li2{
+		float: right;
+	}
+	li a{
+		display: block;
+		color: white;
+		text-align: center;
+		padding: 16px;
+		text-decoration: none;
+	}
+	li a:hover{
+		background-color: #441371;
+	}
+	article{
+		padding: 0;
+	}
+	section:after{
+		content: "";
+		display: table;
+		clear: both;
+	}
+	@media(max-width: 600px){
+		nav, article{
+			width: 100%;
+			height: auto;
+	}
+	}
